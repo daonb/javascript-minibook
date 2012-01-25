@@ -61,19 +61,19 @@ h1 { font: Strong 18px Cambria, Georgia, Times New Roman, Calibri, serif;
 
     </style>
     <!-- jquery -->
-    <script type="text/javascript" src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="../js/jquery-1.7.1.min.js"></script>
 
     <!-- jquery UI -->
-    <link type="text/css" href="js/jquery-ui/css/smoothness/jquery-ui-1.8.17.custom.css" rel="Stylesheet" />	
-    <script type="text/javascript" src="js/jquery-ui/js/jquery-ui-1.8.17.custom.min.js"></script>
+    <link type="text/css" href="../js/jquery-ui/css/smoothness/jquery-ui-1.8.17.custom.css" rel="Stylesheet" />	
+    <script type="text/javascript" src="../js/jquery-ui/js/jquery-ui-1.8.17.custom.min.js"></script>
 
     <!-- CodeMirror -->
-    <script type="text/javascript" src="js/CodeMirror-2.11/lib/codemirror.js"></script>
-    <link rel="stylesheet" href="js/CodeMirror-2.11/lib/codemirror.css">
-    <link rel="stylesheet" href="js/CodeMirror-2.11/theme/default.css">
-    <script src="js/CodeMirror-2.11/mode/javascript/javascript.js"></script>
+    <script type="text/javascript" src="../js/CodeMirror-2.11/lib/codemirror.js"></script>
+    <link rel="stylesheet" href="../js/CodeMirror-2.11/lib/codemirror.css">
+    <link rel="stylesheet" href="../js/CodeMirror-2.11/theme/default.css">
+    <script src="../js/CodeMirror-2.11/mode/javascript/javascript.js"></script>
 
-    <title>Canvas Tutorial - ${title}</title>
+    <title>${book_name} - ${title}</title>
 <script type="text/javascript">
 var editor = undefined;
 var libEditor = undefined;
